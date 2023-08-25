@@ -20,7 +20,7 @@ list-style-type: none;
 }
 .logo {
     color: var(--iris);
-        font-family: Raleway;
+        font-family: Raleway, sans-serif;
         font-size: 18px;
         font-style: normal;
         font-weight: 800;
@@ -106,7 +106,7 @@ font-size: 16px;
         /* 107.143% */
         letter-spacing: 1.12px;
 }
-.order {
+.serv {
         background: var(--iris);
         font-family: 'Roboto', sans-serif;
         color: var(--white);
@@ -116,7 +116,7 @@ font-size: 16px;
         letter-spacing: 0.64px;
         cursor: pointer;
 }
-.order:hover, .order:focus {
+.serv:hover, .serv:focus {
     background-color: var(--ocean);
 }
 .section-title {
