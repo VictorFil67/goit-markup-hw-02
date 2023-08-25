@@ -15,7 +15,7 @@ list-style-type: none;
     --cloud: #F4F4FD;
     --slate: #434455;
     --cornflower: #E7E9FC;
-    --cloud: #F4F4FD;
+    --ocean: #404bbf;
     --white: #FFF;
 }
 .logo {
@@ -24,120 +24,105 @@ list-style-type: none;
         font-size: 18px;
         font-style: normal;
         font-weight: 800;
-        line-height: 1.16667;
+        line-height: 1.17;
         /* 116.667% */
         letter-spacing: 0.54px;
         text-transform: uppercase;
 }
-.logo-top {
+.link {
+    text-decoration: none;
+}
+.studio {
     color: var(--navyblue);
-        font-family: Raleway;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 800;
-        line-height: 1.16667;
-        /* 116.667% */
-        letter-spacing: 0.54px;
-        text-transform: uppercase;
+        
 }
-.logo-footer {
-    color: var(--cloud);
-        font-family: Raleway;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 800;
-        line-height: 1.16667;
-        /* 116.667% */
-        letter-spacing: 0.54px;
-        text-transform: uppercase;
+.list {
+    list-style: none;
 }
-.nav a, .hero-image button {
+.nav  {
 color: var(--navyblue);
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.5;
     /* 150% */
     letter-spacing: 0.32px;
 }
-.address a, .card a {
-color: var(--slate);
-    font-size: 16px;
+.address {
     font-style: normal;
-    line-height: 1.5;
-    /* 150% */
-    letter-spacing: 0.32px;
 }
-.filter button {
-border-radius: 4px;
-    border: 1px solid var(--cornflower);
+.contacts {
+    color: var(--slate);
+        font-size: 16px;
+        line-height: 1.5;
+        /* 150% */
+        letter-spacing: 0.32px;
+}
+.filter {
+    font-family: 'Roboto', sans-serif;
     background: var(--cloud);
     cursor: pointer;
     color: var(--iris);
-        text-align: center;
         /* Button Text */
         font-size: 16px;
-        font-style: normal;
         font-weight: 500;
         line-height: 1.5;
         /* 150% */
         letter-spacing: 0.64px;
 }
-.nav a:hover,
-.address a:hover,
-.card a:hover,
-.nav a:focus,
-.address a:focus,
-.card a:focus {
-color: var(--iris);
+.nav:hover,
+.contacts:hover,
+.nav:focus,
+.contacts:focus {
+color: var(--ocean);
 }
-.hero-image button:hover,
-.filter button:hover,
-.hero-image button:focus,
-.filter button:focus {
+.filter:hover,
+.filter:focus {
     color: var(--white);
-background: var(--iris);
+background: var(--ocean);
 }
-.card h3 {
+.item-title {
 color: var(--navyblue);
     font-size: 20px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.2;
     /* 120% */
     letter-spacing: 0.4px;
 }
-.card p, .foo p {
-    font-size: 16px;
+.item-text {
+font-size: 16px;
     line-height: 1.5;
     /* 150% */
     letter-spacing: 0.32px;
+    color: var(--slate);
 }
 .foo, .hero-image {
     background-color: var(--navyblue);
 }
-.hero-image h1 {
+.title {
     color: var(--white);
         text-align: center;
         font-size: 56px;
-        font-style: normal;
-        line-height: 1.07143;
+        line-height: 1.07;
         /* 107.143% */
         letter-spacing: 1.12px;
 }
-.hero-image button {
-    border-radius: 4px;
+.order {
         background: var(--iris);
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+        font-family: 'Roboto', sans-serif;
         color: var(--white);
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
         letter-spacing: 0.64px;
         cursor: pointer;
 }
-.content h2 {
+.order:hover, .order:focus {
+    background-color: var(--ocean);
+}
+.section-title {
 color: var(--navyblue);
 text-align: center;
 font-size: 36px;
-font-style: normal;
 line-height: 1.11; /* 111.111% */
 letter-spacing: 0.72px;
 text-transform: capitalize;
@@ -145,6 +130,15 @@ text-transform: capitalize;
 .team {
     background: var(--cloud);
 }
-.foo p{
+.member {
+    background-color: var(--white);
+}
+.foo .studio {
+            color: var(--cloud);
+}
+.foo-text {
     color: var(--cloud);
+    line-height: 1.5;
+    /* 150% */
+    letter-spacing: 0.32px;
 }
